@@ -54,9 +54,9 @@
   <version>2.2</version>
   <configuration>
    <url>http://localhost:8080/manager/html</url>
-   <server>TomcatServer</server>
+   <server>TomcatServer
    <username>tomcat</username>
-   <password>tomcat</password>
+   <password>tomcat</password></server>
    <path>/Microservices</path>
   </configuration>
  </plugin>
