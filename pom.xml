@@ -35,7 +35,13 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	
+	<distributionManagement>
+      <repository>
+         <id>Microservices</id>
+         <name>MicroDemo</name>
+         <url>http://localhost:8080</url>
+      </repository>
+   </distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
